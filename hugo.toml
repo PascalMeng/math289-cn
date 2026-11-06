@@ -1,20 +1,7 @@
 baseURL = "/"
 languageCode = "zh-CN"
-defaultContentLanguage = "zh"
 title = "数学·AI·Lean"
 theme = "book"
-enableGitInfo = true
-
-[params]
-  description = "MATH289 中文版 — 数学实践在变化的世界中"
-  author = "基于斯坦福大学 MATH289 课程"
-  BookSection = "docs"
-  BookToC = true
-  BookSearch = true
-  BookComments = false
-  BookPortableLinks = true
-  BookServiceWorker = true
-  originalCourseURL = "https://web.stanford.edu/class/math289/"
 
 [markup]
   [markup.highlight]
@@ -23,8 +10,3 @@ enableGitInfo = true
     codeFences = true
   [markup.goldmark.renderer]
     unsafe = true
-
-[languages]
-  [languages.zh]
-    languageName = "中文"
-    weight = 1
