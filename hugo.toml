@@ -1,4 +1,4 @@
-baseURL = "https://pascalmeng.github.io/math289-cn/"
+baseURL = "/"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
 title = "数学·AI·Lean"
@@ -6,22 +6,16 @@ theme = "book"
 enableGitInfo = true
 
 [params]
-  # 网站信息
   description = "MATH289 中文版 — 数学实践在变化的世界中"
   author = "基于斯坦福大学 MATH289 课程"
-  
-  # Book 主题配置
-  BookMenuBundle = "/menu"
   BookSection = "docs"
   BookToC = true
   BookSearch = true
   BookComments = false
   BookPortableLinks = true
   BookServiceWorker = true
-  
-  # 自定义
   originalCourseURL = "https://web.stanford.edu/class/math289/"
-  
+
 [markup]
   [markup.highlight]
     style = "dracula"
