@@ -1,0 +1,13 @@
+{
+  "name": "math289-cn",
+  "version": "1.0.0",
+  "description": "MATH289 中文版 — 数学实践在变化的世界中",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
